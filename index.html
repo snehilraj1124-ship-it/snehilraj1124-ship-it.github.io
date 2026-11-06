@@ -15,7 +15,7 @@
 <meta property="og:title" content="Snehil Raj | Official Portfolio">
 <meta property="og:description" content="Engineering, analytics, technology and business. Explore Snehil Raj's official portfolio.">
 <meta property="og:url" content="https://snehilraj1124-ship-it.github.io/">
-<meta property="og:image" content="https://snehilraj1124-ship-it.github.io/assets/snehil-raj-professional.jpg">
+<meta property="og:image" content="https://snehilraj1124-ship-it.github.io/profile-photo.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -30,7 +30,7 @@
   "name":"Snehil Raj",
   "email":"snehilraj.1124@gmail.com",
   "url":"https://snehilraj1124-ship-it.github.io/",
-  "image":"https://snehilraj1124-ship-it.github.io/assets/snehil-raj-professional.jpg",
+  "image":"https://snehilraj1124-ship-it.github.io/profile-photo.jpg",
   "jobTitle":"Electrical and Electronics Engineering Graduate",
   "description":"VIT Vellore graduate interested in data analytics, business analytics, technology and management.",
   "alumniOf":{
@@ -58,9 +58,7 @@
 --blue:#9ec5f5;
 }
 
-*{
-box-sizing:border-box;
-}
+*{box-sizing:border-box}
 
 html{
 scroll-behavior:smooth;
@@ -75,9 +73,7 @@ font-family:"DM Sans",sans-serif;
 line-height:1.7;
 }
 
-a{
-color:inherit;
-}
+a{color:inherit}
 
 .wrap{
 width:min(1120px,calc(100% - 40px));
@@ -118,9 +114,7 @@ text-decoration:none;
 font-size:.92rem;
 }
 
-.navlinks a:hover{
-color:var(--gold);
-}
+.navlinks a:hover{color:var(--gold)}
 
 .hero{
 min-height:660px;
@@ -145,9 +139,7 @@ letter-spacing:-.07em;
 margin:18px 0;
 }
 
-.hero h1 span{
-color:var(--gold);
-}
+.hero h1 span{color:var(--gold)}
 
 .lead{
 font-size:1.15rem;
@@ -182,45 +174,40 @@ color:#101827;
 border-color:var(--gold);
 }
 
-/* FINAL PORTRAIT FRAME - FULL ORIGINAL PHOTO */
-
-/* CLEAN PORTRAIT FRAME */
+/* PROFESSIONAL PORTRAIT FRAME */
 .portrait-wrap{
-  justify-self:end;
-  align-self:center;
-  width:300px;
-  height:400px;
-  padding:0;
-  margin:0;
-  position:relative;
-  overflow:hidden;
-  border:1px solid #806c4d;
-  border-radius:20px;
-  background:#142239;
-  box-shadow:0 20px 50px rgba(0,0,0,.35);
+justify-self:end;
+align-self:center;
+display:block;
+width:300px;
+height:400px;
+padding:0;
+margin:0;
+position:relative;
+overflow:hidden;
+border:1px solid #806c4d;
+border-radius:20px;
+background:#142239;
+box-shadow:0 20px 50px rgba(0,0,0,.35);
 }
 
 .portrait-wrap::after{
-  display:none;
-  content:none;
+display:none;
+content:none;
 }
 
 .portrait{
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  object-position:center;
-  border-radius:0;
+display:block;
+width:100%;
+height:100%;
+object-fit:cover;
+object-position:center;
+border-radius:0;
 }
 
-section.content{
-padding:35px 0;
-}
+section.content{padding:35px 0}
 
-.section-title{
-margin-bottom:20px;
-}
+.section-title{margin-bottom:20px}
 
 .section-title h2{
 font:700 2rem Manrope,sans-serif;
@@ -257,9 +244,7 @@ border-radius:14px;
 background:#ffffff06;
 }
 
-.fact b{
-display:block;
-}
+.fact b{display:block}
 
 .fact span{
 color:var(--muted);
@@ -334,9 +319,7 @@ background:var(--panel2);
 font:700 1.08rem Manrope;
 }
 
-.link-card small{
-color:var(--muted);
-}
+.link-card small{color:var(--muted)}
 
 .out{
 color:var(--gold);
@@ -360,7 +343,6 @@ flex-wrap:wrap;
 }
 
 @media(max-width:760px){
-
 .hero{
 grid-template-columns:1fr;
 gap:35px;
@@ -371,28 +353,18 @@ padding:60px 0;
 justify-self:center;
 align-self:center;
 width:260px;
-aspect-ratio:3/4;
+height:347px;
 }
 
-.about{
-grid-template-columns:1fr;
-}
+.about{grid-template-columns:1fr}
 
-.grid{
-grid-template-columns:repeat(2,1fr);
-}
+.grid{grid-template-columns:repeat(2,1fr)}
 
-.links{
-grid-template-columns:repeat(2,1fr);
-}
-
+.links{grid-template-columns:repeat(2,1fr)}
 }
 
 @media(max-width:520px){
-
-.wrap{
-width:calc(100% - 30px);
-}
+.wrap{width:calc(100% - 30px)}
 
 .nav{
 height:auto;
@@ -408,33 +380,15 @@ justify-content:space-between;
 gap:8px;
 }
 
-.navlinks a{
-font-size:.82rem;
-}
+.navlinks a{font-size:.82rem}
 
-.hero h1{
-font-size:3.35rem;
-}
+.hero h1{font-size:3.35rem}
 
-.card{
-padding:21px;
-}
+.card{padding:21px}
 
-.grid{
-grid-template-columns:1fr;
-}
+.grid{grid-template-columns:1fr}
 
-.foot{
-display:block;
-}
-
-}
-  .portrait-wrap {
-  display: none !important;
-}
-.hero {
-  grid-template-columns: 1fr !important;
-  min-height: 500px;
+.foot{display:block}
 }
 </style>
 </head>
@@ -443,7 +397,6 @@ display:block;
 
 <header>
 <div class="wrap nav">
-
 <a class="brand" href="#home">SNEHIL RAJ</a>
 
 <nav class="navlinks">
@@ -452,7 +405,6 @@ display:block;
 <a href="#focus">Focus</a>
 <a href="#connect">Connect</a>
 </nav>
-
 </div>
 </header>
 
@@ -461,7 +413,6 @@ display:block;
 <section class="hero" id="home">
 
 <div>
-
 <div class="eyebrow">Official personal portfolio</div>
 
 <h1>Hello,<br>I'm <span>Snehil Raj.</span></h1>
@@ -471,32 +422,22 @@ Electrical and Electronics Engineering graduate from Vellore Institute of Techno
 </p>
 
 <div class="actions">
+<a class="btn primary" href="https://www.linkedin.com/in/snehilraj1124" target="_blank" rel="me noopener noreferrer">View LinkedIn ↗</a>
 
-<a class="btn primary" href="https://www.linkedin.com/in/snehilraj1124" target="_blank" rel="me noopener noreferrer">
-View LinkedIn ↗
-</a>
+<a class="btn" href="https://github.com/snehilraj1124-ship-it" target="_blank" rel="me noopener noreferrer">Explore GitHub ↗</a>
 
-<a class="btn" href="https://github.com/snehilraj1124-ship-it" target="_blank" rel="me noopener noreferrer">
-Explore GitHub ↗
-</a>
-
-<a class="btn" href="mailto:snehilraj.1124@gmail.com">
-Email me ↗
-</a>
-
+<a class="btn" href="mailto:snehilraj.1124@gmail.com">Email me ↗</a>
 </div>
 </div>
 
 <div class="portrait-wrap">
-
 <img
 class="portrait"
-src="assets/snehil-raj-professional.jpg"
+src="profile-photo.jpg"
 alt="Snehil Raj — professional portrait"
 width="1086"
 height="1448"
 fetchpriority="high">
-
 </div>
 
 </section>
@@ -557,7 +498,6 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 </div>
 
 <div class="card chips">
-
 <span class="chip">Data Analytics</span>
 <span class="chip">Business Analytics</span>
 <span class="chip">Power BI</span>
@@ -568,8 +508,8 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 <span class="chip">Web Development</span>
 <span class="chip">Digital Marketing</span>
 <span class="chip">Business &amp; Management</span>
-
 </div>
+
 </section>
 
 <section class="content" id="connect">
@@ -617,18 +557,12 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 </main>
 
 <footer>
-
 <div class="wrap foot">
-
-<span>
-© <span id="year">2026</span> Snehil Raj. All rights reserved.
-</span>
-
+<span>© <span id="year">2026</span> Snehil Raj. All rights reserved.</span>
 <span>
 <a href="mailto:snehilraj.1124@gmail.com">snehilraj.1124@gmail.com</a>
 · Official personal portfolio · New Delhi, India
 </span>
-
 </div>
 </footer>
 
