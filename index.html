@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>Snehil Raj — Official Portfolio | VIT Vellore Graduate</title>
 <meta name="description" content="Official portfolio of Snehil Raj, Electrical and Electronics Engineering graduate from VIT Vellore. Explore his work, interests, GitHub repositories and professional profiles.">
 <meta name="author" content="Snehil Raj">
@@ -57,7 +58,9 @@
 --blue:#9ec5f5;
 }
 
-*{box-sizing:border-box}
+*{
+box-sizing:border-box;
+}
 
 html{
 scroll-behavior:smooth;
@@ -72,7 +75,9 @@ font-family:"DM Sans",sans-serif;
 line-height:1.7;
 }
 
-a{color:inherit}
+a{
+color:inherit;
+}
 
 .wrap{
 width:min(1120px,calc(100% - 40px));
@@ -113,7 +118,9 @@ text-decoration:none;
 font-size:.92rem;
 }
 
-.navlinks a:hover{color:var(--gold)}
+.navlinks a:hover{
+color:var(--gold);
+}
 
 .hero{
 min-height:660px;
@@ -138,7 +145,9 @@ letter-spacing:-.07em;
 margin:18px 0;
 }
 
-.hero h1 span{color:var(--gold)}
+.hero h1 span{
+color:var(--gold);
+}
 
 .lead{
 font-size:1.15rem;
@@ -173,45 +182,47 @@ color:#101827;
 border-color:var(--gold);
 }
 
-/* FINAL PORTRAIT FRAME */
+/* FINAL PORTRAIT FRAME - FULL ORIGINAL PHOTO */
+
 .portrait-wrap{
 justify-self:end;
 align-self:center;
 display:block;
 width:300px;
-height:375px;
-min-width:0;
-min-height:0;
-max-height:375px;
+aspect-ratio:3/4;
+height:auto;
 padding:0;
 margin:0;
 position:relative;
 overflow:hidden;
-border:1px solid #34445c;
+border:1px solid #806c4d;
 border-radius:22px;
 background:#142239;
 box-shadow:0 20px 55px rgba(0,0,0,.4);
 }
 
 .portrait-wrap::after{
-content:none;
 display:none;
+content:none;
 }
 
 .portrait{
 display:block;
 width:100%;
 height:100%;
-max-height:100%;
-aspect-ratio:auto;
-object-fit:cover;
-object-position:center 30%;
+aspect-ratio:3/4;
+object-fit:contain;
+object-position:center;
 border-radius:0;
 }
 
-section.content{padding:35px 0}
+section.content{
+padding:35px 0;
+}
 
-.section-title{margin-bottom:20px}
+.section-title{
+margin-bottom:20px;
+}
 
 .section-title h2{
 font:700 2rem Manrope,sans-serif;
@@ -248,7 +259,9 @@ border-radius:14px;
 background:#ffffff06;
 }
 
-.fact b{display:block}
+.fact b{
+display:block;
+}
 
 .fact span{
 color:var(--muted);
@@ -323,7 +336,9 @@ background:var(--panel2);
 font:700 1.08rem Manrope;
 }
 
-.link-card small{color:var(--muted)}
+.link-card small{
+color:var(--muted);
+}
 
 .out{
 color:var(--gold);
@@ -347,6 +362,7 @@ flex-wrap:wrap;
 }
 
 @media(max-width:760px){
+
 .hero{
 grid-template-columns:1fr;
 gap:35px;
@@ -357,19 +373,28 @@ padding:60px 0;
 justify-self:center;
 align-self:center;
 width:260px;
-height:325px;
-max-height:325px;
+aspect-ratio:3/4;
 }
 
-.about{grid-template-columns:1fr}
+.about{
+grid-template-columns:1fr;
+}
 
-.grid{grid-template-columns:repeat(2,1fr)}
+.grid{
+grid-template-columns:repeat(2,1fr);
+}
 
-.links{grid-template-columns:repeat(2,1fr)}
+.links{
+grid-template-columns:repeat(2,1fr);
+}
+
 }
 
 @media(max-width:520px){
-.wrap{width:calc(100% - 30px)}
+
+.wrap{
+width:calc(100% - 30px);
+}
 
 .nav{
 height:auto;
@@ -385,15 +410,26 @@ justify-content:space-between;
 gap:8px;
 }
 
-.navlinks a{font-size:.82rem}
+.navlinks a{
+font-size:.82rem;
+}
 
-.hero h1{font-size:3.35rem}
+.hero h1{
+font-size:3.35rem;
+}
 
-.card{padding:21px}
+.card{
+padding:21px;
+}
 
-.grid{grid-template-columns:1fr}
+.grid{
+grid-template-columns:1fr;
+}
 
-.foot{display:block}
+.foot{
+display:block;
+}
+
 }
 </style>
 </head>
@@ -402,13 +438,16 @@ gap:8px;
 
 <header>
 <div class="wrap nav">
+
 <a class="brand" href="#home">SNEHIL RAJ</a>
+
 <nav class="navlinks">
 <a href="#about">About</a>
 <a href="#education">Education</a>
 <a href="#focus">Focus</a>
 <a href="#connect">Connect</a>
 </nav>
+
 </div>
 </header>
 
@@ -417,6 +456,7 @@ gap:8px;
 <section class="hero" id="home">
 
 <div>
+
 <div class="eyebrow">Official personal portfolio</div>
 
 <h1>Hello,<br>I'm <span>Snehil Raj.</span></h1>
@@ -426,22 +466,32 @@ Electrical and Electronics Engineering graduate from Vellore Institute of Techno
 </p>
 
 <div class="actions">
-<a class="btn primary" href="https://www.linkedin.com/in/snehilraj1124" target="_blank" rel="me noopener noreferrer">View LinkedIn ↗</a>
 
-<a class="btn" href="https://github.com/snehilraj1124-ship-it" target="_blank" rel="me noopener noreferrer">Explore GitHub ↗</a>
+<a class="btn primary" href="https://www.linkedin.com/in/snehilraj1124" target="_blank" rel="me noopener noreferrer">
+View LinkedIn ↗
+</a>
 
-<a class="btn" href="mailto:snehilraj.1124@gmail.com">Email me ↗</a>
+<a class="btn" href="https://github.com/snehilraj1124-ship-it" target="_blank" rel="me noopener noreferrer">
+Explore GitHub ↗
+</a>
+
+<a class="btn" href="mailto:snehilraj.1124@gmail.com">
+Email me ↗
+</a>
+
 </div>
 </div>
 
 <div class="portrait-wrap">
+
 <img
 class="portrait"
 src="assets/snehil-raj-professional.jpg"
 alt="Snehil Raj — professional portrait"
-width="1000"
-height="1250"
+width="1086"
+height="1448"
 fetchpriority="high">
+
 </div>
 
 </section>
@@ -502,6 +552,7 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 </div>
 
 <div class="card chips">
+
 <span class="chip">Data Analytics</span>
 <span class="chip">Business Analytics</span>
 <span class="chip">Power BI</span>
@@ -512,8 +563,8 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 <span class="chip">Web Development</span>
 <span class="chip">Digital Marketing</span>
 <span class="chip">Business &amp; Management</span>
-</div>
 
+</div>
 </section>
 
 <section class="content" id="connect">
@@ -561,12 +612,18 @@ I’m Snehil Raj, a B.Tech graduate in Electrical and Electronics Engineering fr
 </main>
 
 <footer>
+
 <div class="wrap foot">
-<span>© <span id="year">2026</span> Snehil Raj. All rights reserved.</span>
+
+<span>
+© <span id="year">2026</span> Snehil Raj. All rights reserved.
+</span>
+
 <span>
 <a href="mailto:snehilraj.1124@gmail.com">snehilraj.1124@gmail.com</a>
 · Official personal portfolio · New Delhi, India
 </span>
+
 </div>
 </footer>
 
