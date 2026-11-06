@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://snehilraj1124-ship-it.github.io/sitemap.xml

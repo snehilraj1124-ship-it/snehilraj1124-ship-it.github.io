@@ -1,0 +1,4 @@
+Use repository name exactly: snehilraj1124-ship-it.github.io
+Upload folder CONTENTS to repository ROOT (not the folder itself).
+Settings > Pages > Deploy from a branch > main > /(root) > Save.
+Live URL: https://snehilraj1124-ship-it.github.io/
