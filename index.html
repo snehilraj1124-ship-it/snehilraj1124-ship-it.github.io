@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -370,6 +369,26 @@ section.content {
   font-size: .91rem;
 }
 
+/* BLOGS & ARTICLES */
+
+.blog-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.blog-card p {
+  color: #c2cddd;
+  margin: 8px 0 0;
+  max-width: 650px;
+}
+
+.blog-card .actions {
+  margin-top: 0;
+}
+
 /* SOCIAL LINKS */
 
 .links {
@@ -509,6 +528,7 @@ footer {
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#focus">Focus</a>
+      <a href="#blogs">Blogs</a>
       <a href="#connect">Connect</a>
     </nav>
   </div>
@@ -624,6 +644,32 @@ footer {
     <span class="chip">Web Development</span>
     <span class="chip">Digital Marketing</span>
     <span class="chip">Business &amp; Management</span>
+  </div>
+
+</section>
+
+<!-- BLOGS & ARTICLES SECTION -->
+
+<section class="content" id="blogs">
+
+  <div class="section-title">
+    <div class="eyebrow">Ideas, perspectives &amp; writing</div>
+    <h2>Blogs &amp; Articles</h2>
+  </div>
+
+  <div class="card blog-card">
+    <div>
+      <p>Explore my published articles, insights, and writings</p>
+    </div>
+
+    <div class="actions">
+      <a class="btn primary"
+         href="https://about.me/snehilraj"
+         target="_blank"
+         rel="noopener noreferrer">
+        Explore Blogs &amp; Articles ↗
+      </a>
+    </div>
   </div>
 
 </section>
